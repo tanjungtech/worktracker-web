@@ -10,6 +10,7 @@ import DevelopmentPage from './page/DevelopmentPage'
 import TestPage from './page/TestPage'
 import BugPage from './page/BugPage'
 import TeamPage from './page/TeamPage'
+import RandomDatePage from './page/RandomDatePage'
 
 import './App.css';
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/test' element={<TestPage />} />
         <Route path='/bug' element={<BugPage />} />
         <Route path='/team' element={<TeamPage />} />
+        <Route path='/random-date' element={<RandomDatePage />} />
       </Routes>
     </div>
   )

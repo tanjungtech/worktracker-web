@@ -2,7 +2,9 @@ import React from 'react'
 
 const DevelopmentPage = () => {
     return (
-        <div>Development Page</div>
+        <div className='main-content'>
+            <div>Development Page</div>
+        </div>
     )
 }
 

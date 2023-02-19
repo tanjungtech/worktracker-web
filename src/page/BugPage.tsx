@@ -2,7 +2,9 @@ import React from 'react'
 
 const BugPage = () => {
     return (
-        <div>Bug Page</div>
+        <div className='main-content'>
+            <div>Bug Page</div>
+        </div>
     )
 }
 

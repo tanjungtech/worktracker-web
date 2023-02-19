@@ -20,10 +20,6 @@ export const dateIdStdFormat = (d: Date) => {
   return `${ dateToDayNameConverter(d.getDay()) }, ${ d.getDate() } ${ monthNameList(d.getMonth()) } ${ d.getFullYear() }`
 }
 
-export const limitedWorkingDayObject = () => {
-  return true
-}
-
 export const setYearByNumber = (base: Date, n: number) => {
   const cleanBase = new Date(base)
   return new Date(cleanBase.setFullYear(cleanBase.getFullYear() + n))

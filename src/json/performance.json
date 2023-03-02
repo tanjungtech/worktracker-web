@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "query": "?accountId=3&platform=all&project=all",
+    "result": [
+        {
+            "_id": "1",
+            "averageHours": 4.2345
+        }
+    ]
+}

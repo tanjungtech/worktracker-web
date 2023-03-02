@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "query": "?testcase=2",
+    "result": {
+        "_id": "2",
+        "testedBy": "3",
+        "description": "Bla Bla Bla",
+        "status": "Passed",
+        "platform": "3",
+        "isLatestTestResult": true,
+        "testedAt": "2023-02-26T16:03:42.115Z",
+        "createdAt": "2023-02-26T16:03:42.115Z",
+        "modifiedAt": "2023-02-28T19:03:42.115Z"
+    }
+}

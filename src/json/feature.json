@@ -1,0 +1,26 @@
+{
+    "status": "success",
+    "query": "?platform=1",
+    "result": [
+        {
+            "_id": "1",
+            "name": "Filantropi",
+            "description": "User dapat mengatur untuk setor donasi per bulan pada tanggal yang ditentukan dalam bentuk zakat, wakaf, atau infak",
+            "inCharge": ["2", "4"],
+            "tag": ["3", "4", "6", "8"],
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "2",
+            "name": "Promotion",
+            "description": "Aplikasi menampilkan banner promosi yang dapat diatur sesuai parameter pada CMS support site",
+            "inCharge": ["3", "5", "8"],
+            "tag": ["3", "4", "6", "8"],
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        }
+    ]
+}

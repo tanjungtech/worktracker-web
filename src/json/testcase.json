@@ -1,0 +1,1084 @@
+{
+    "status": "success",
+    "query": "?project=2",
+    "result": [
+        {
+            "_id": "1",
+            "project": ["2"],
+            "title": "DeviceType Desktop",
+            "description": "",
+            "variables": [ 
+                { "param": "DESKTOP", "val": "show" }
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih DESKTOP pada baris Device Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion hanya muncul pada device Desktop",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "2",
+            "project": ["2"],
+            "title": "DeviceType Mobile",
+            "description": "",
+            "variables": [ 
+                { "param": "MOBILE", "val": "show" }
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih MOBILE pada baris Device Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion hanya muncul pada device Mobile",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "3",
+            "project": ["2"],
+            "title": "DestinationType - Destination URL",
+            "description": "",
+            "variables": [ 
+                { "param": "URL", "val": "navigate" }
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih URL pada baris Destination Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Masukkan alamat website pada Destination",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion memiliki tautan yang menuju ke URL target (external link)",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Failed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "4",
+            "project": ["2"],
+            "title": "DestinationType - Destination Menu",
+            "description": "",
+            "variables": [
+                { "param": "MENU", "val": "navigate" }
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih MENU pada baris Destination Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih menu di dalam aplikasi MotionTrade pada baris Destination",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation":[
+                {
+                    "description": "Promotion memiliki tautan yang menuju ke destinasi menu di aplikasi Motion Trade",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "5",
+            "project": ["2"],
+            "title": "Promotion Type Popup",
+            "description": "",
+            "variables": [
+                { "param": "POPUP", "val": "show" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih POPUP pada baris Promotion Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion tampil dalam format Popup dan masuk dalam Promotion List",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "6",
+            "project": ["2"],
+            "title": "Promotion Type None",
+            "description": "",
+            "variables": [
+                { "param": "NONE", "val": "show" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pilih NONE pada baris Promotion Type",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion hanya masuk dalam Promotion List, tidak tampil di bagian lainnya",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "7",
+            "project": ["2"],
+            "title": "StartEndPromo Pending",
+            "description": "",
+            "variables": [
+                { "param": "Pending", "val": "larger_than" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada Start Promo, pilih tanggal setelah hari ini",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada End Promo, pilih tanggal setelah hari ini dan setelah Start Promo",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion tidak tampil di hari ini (termasuk di Promotion List), baru tampil setelah tanggal sesuai Start Promo",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Promotion tidak tampil setelah melewati hari End Promo",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "8",
+            "project": ["2"],
+            "title": "StartEndPromo During",
+            "description": "",
+            "variables": [
+                { "param": "During", "val": "equal" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada Start Promo, pilih tanggal sebelum hari ini",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada End Promo, pilih tanggal setelah hari ini",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion tampil di hari ini (termasuk di Promotion List)",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "9",
+            "project": ["2"],
+            "title": "StartEndPromo Passed",
+            "description": "",
+            "variables": [
+                { "param": "Passed", "val": "lower_than" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada Start Promo, pilih tanggal sebelum hari ini",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon kalender pada End Promo, pilih tanggal sebelum hari ini dan setelah Start Promo",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion tidak tampil di hari ini (termasuk di Promotion List)",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "10",
+            "project": ["2"],
+            "title": "FromToPromo Pending",
+            "description": "",
+            "variables": [
+                { "param": "Pending", "val": "larger_than" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo From, pilih jam setelah jam sekarang",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo To, pilih jam setelah jam sekarang dan setelah jam Show Promo From",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": [
+                {
+                    "description": "Promotion tidak tampil pada waktu sekarang baru tampil setelah sampai waktu ShowPromoFrom",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Promotion tidak tampil setelah melewati waktu ShowPromoTo",
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "11",
+            "project": ["2"],
+            "title": "FromToPromo During",
+            "description": "",
+            "variables": [
+                { "param": "During", "val": "equal" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo From, pilih jam sebelum jam sekarang",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo To, pilih jam setelah jam sekarang dan setelah jam Show Promo From",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Promotion tampil pada jam sekarang sesuai dengan Promo Type",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "12",
+            "project": ["2"],
+            "title": "FromToPromo Passed",
+            "description": "",
+            "variables": [
+                { "param": "Passed", "val": "lower_than" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo From, pilih jam sebelum jam sekarang",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Tekan icon jam pada Show Promo To, pilih jam sebelum jam sekarang dan setelah jam Show Promo From",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Promotion tidak lagi tampil, baru tayang setelah besok",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "13",
+            "project": ["2"],
+            "title": "IsDirectLink True",
+            "description": "",
+            "variables": [
+                { "param": "isDirectLink", "val": "true" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pastikan baris Active sudah dicentang",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "User langsung menuju tautan destination setelah menekan banner promotion pada Popup (sesuai Promo Type)",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "14",
+            "project": ["2"],
+            "title": "IsDirectLink False",
+            "description": "",
+            "variables": [
+                { "param": "isDirectLink", "val": "false" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Pastikan baris isDirectLink tidak tercentang",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "User langsung menuju tautan detail Promotion setelah menekan banner promotion pada Promo Type",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Failed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "15",
+            "project": ["2"],
+            "title": "CallToAction Menu - String",
+            "description": "",
+            "variables": [
+                { "param": "callToAction", "val": "menu" },              
+                { "param": "actionLabel", "val": "string" }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Isi baris Call to Action sesuai menu yang terdapat di aplikasi Motion Trade",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Isi baris Action Label dengan teks tertentu",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Halaman detail Promotion menampilkan button yang menuju Menu sesuai Value Call To Action, button memiliki label sesuai value Action Label",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Failed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "16",
+            "project": ["2"],
+            "title": "CallToAction Null Null",
+            "description": "",
+            "variables": [
+                { "param": "callToAction", "val": null },              
+                { "param": "actionLabel", "val": null }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Kosongkan baris Call to Action",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Kosongkan baris Action Label",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Halaman detail Promotion tidak menampilkan button",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Failed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "17",
+            "project": ["2"],
+            "title": "CallToAction Menu Null",
+            "description": "",
+            "variables": [
+                { "param": "callToAction", "val": "menu" },              
+                { "param": "actionLabel", "val": null }                
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Isi baris Call to Action sesuai menu yang terdapat di aplikasi Motion Trade",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Kosongkan baris Action Label",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 3,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Halaman detail Promotion menampilkan button yang menuju Menu sesuai Value Call To Action, label pada button menjadi 'Take Action' (atau apapun) -> settingan default",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "18",
+            "project": ["2"],
+            "title": "Period N positive integer",
+            "description": "",
+            "variables": [
+                { "param": "period", "val": "integer" }        
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Isi baris period dengan angka positive integer (1 - ~)",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Promotion tidak lagi muncul jika sudah tampil sebanyak nilai period",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "19",
+            "project": ["2"],
+            "title": "Period N positive integer",
+            "description": "",
+            "variables": [
+                { "param": "period", "val": 0 }    
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Isi baris period dengan angka 0",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Promotion tidak muncul, hanya muncul di promotion list",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "20",
+            "project": ["2"],
+            "title": "With Attachment",
+            "description": "",
+            "variables": [
+                { "param": "attachment", "val": true }      
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Upload file pada baris attachment (format pdf)",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Detail Promotion memiliki lampiran dalam format PDF",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "21",
+            "project": ["2"],
+            "title": "Without Attachment",
+            "description": "",
+            "variables": [
+                { "param": "period", "val": 0 }     
+            ],
+            "steps": [
+                {
+                    "description": "Masuk ke support site, tekan add promotion, lengkapi form",
+                    "order": 0,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Kosongkan baris attachment",
+                    "order": 1,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                },
+                {
+                    "description": "Submit form",
+                    "order": 2,
+                    "reference": [
+                        { "type": "link", "value": "https://www.motiontrade.id" },
+                        { "type": "link", "value": "https://www.motiontrade.id" }
+                    ]
+                }
+            ],
+            "expectation": {
+                "description": "Detail promotion tidak memiliki lampiran",
+                "reference": [
+                    { "type": "link", "value": "https://www.motiontrade.id" }
+                ]
+            },
+            "testResult": ["2", "4"],
+            "status": "Passed",
+            "platform": [ "2", "3" ],
+            "createdBy": "1",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        }
+    ]
+}

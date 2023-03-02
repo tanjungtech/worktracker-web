@@ -1,0 +1,54 @@
+{
+    "status": "success",
+    "queryParam": "?limit=-1",
+    "result": [
+        {
+            "_id": "1",
+            "accountName": "farid",
+            "email": "farid.tanjung@mncgroup.com",
+            "displayName": "Farid",
+            "fullName": "Farid Aulia",
+            "accountRole": "admin",
+            "workRole": "teamlead",
+            "displayRole": "Head",
+            "attribute": {
+                "projects": [1, 3, 4, 5],
+                "bugLoads": [3, 5, 9, 12, 14, 16]
+            },
+            "createdAt": "2023-02-26T06:03:42.115Z",
+            "modifiedAt": "2023-02-28T06:03:42.115Z"
+        },
+        {
+            "_id": "2",
+            "accountName": "abc",
+            "email": "abc@mncgroup.com",
+            "displayName": "Abc",
+            "fullName": "Abc Mnc",
+            "accountRole": "member",
+            "workRole": "teammember",
+            "displayRole": "Backend Developer",
+            "attribute": {
+                "projects": [1, 3, 5, 6, 7],
+                "bugLoads": [3, 9, 12, 15, 16]
+            },
+            "createdAt": "2023-02-26T06:03:42.115Z",
+            "modifiedAt": "2023-02-28T06:04:42.115Z"
+        },
+        {
+            "_id": "3",
+            "accountName": "def",
+            "email": "def@mncgroup.com",
+            "displayName": "Def",
+            "fullName": "Def Mnc",
+            "accountRole": "member",
+            "workRole": "teammember",
+            "displayRole": "Mobile Developer",
+            "attribute": {
+                "projects": [2, 3, 5, 9],
+                "bugLoads": [12, 14, 16, 17, 21]
+            },
+            "createdAt": "2023-02-26T06:03:42.115Z",
+            "modifiedAt": "2023-02-28T06:03:45.115Z"
+        }
+    ]
+}

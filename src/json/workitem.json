@@ -1,0 +1,384 @@
+{
+    "status": "success",
+    "query": "?project=2",
+    "result": [
+        {
+            "_id": "1",
+            "itemName": "Promotion CMS",
+            "itemDescription": "Build CMS for upload promotion banner",
+            "project": "2",
+            "inCharge": ["3", "12"],
+            "platform": "3",
+            "tags": ["2", "3", "5"],
+            "status": "In Progress",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-02-27T06:03:42.115Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-02-27T06:03:42.115Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-02-27T06:03:42.115Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-02-27T06:03:42.115Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-02-27T06:03:42.115Z", "modifiedAt": null }
+            ],
+            "order": 1,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "2",
+            "itemName": "DB Promotion & directory file banner",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "In Progress",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 3,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "3",
+            "itemName": "API POST Promotion Banner (Upload File Content Banner & Featured Banner & Lampiran)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "In Progress",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 2,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "4",
+            "itemName": "API POST Promotion (Save DB)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "In Progress",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 2,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "5",
+            "itemName": "API GET Promotion File (Upload File Content Banner & Featured Banner & Lampiran)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "In Progress",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 5,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "6",
+            "itemName": "API GET Promotion (with query)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 8,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "7",
+            "itemName": "Page List Banners",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 6,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "8",
+            "itemName": "Page Post/Edit Banner",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 3,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "9",
+            "itemName": "Submit Post/Edit Banner",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 9,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "10",
+            "itemName": "Promotion Banner Workflow",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 11,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "11",
+            "itemName": "iOS - Display Promotion Banner Popup (Single Banner)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 7,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "12",
+            "itemName": "Android - Display Promotion Banner Popup (Single Banner)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 8,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "13",
+            "itemName": "iOS - Display Promotion Banner Popup (Multiple Banners)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 9,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "14",
+            "itemName": "Android - Display Promotion Banner Popup (Multiple Banners)",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 10,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "15",
+            "itemName": "iOS - DisplayPromotion List",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 14,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "16",
+            "itemName": "Android - Display Promotion List",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 17,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "17",
+            "itemName": "iOS - Display Promotion Detail",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 15,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        },
+        {
+            "_id": "18",
+            "itemName": "Android - Display Promotion Detail",
+            "itemDescription": "",
+            "project": "2",
+            "inCharge": ["2", "5"],
+            "platform": "2",
+            "tags": ["3", "5", "6"],
+            "status": "Started",
+            "statusLog": [
+                { "type": "Started", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "In Progress", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Committed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Reviewed", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null },
+                { "type": "Ready", "startAt": "2023-0227T06:03:55.123Z", "modifiedAt": null }
+            ],
+            "order": 14,
+            "createdBy": "2",
+            "createdAt": "2023-02-26T16:03:42.115Z",
+            "modifiedAt": "2023-02-28T19:03:42.115Z"
+        }
+    ]
+}

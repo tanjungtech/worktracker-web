@@ -1,5 +1,5 @@
 export const DrawerMenuObject = [
-    { title: 'Home', icon: '', url: '/' },
+    { title: 'Dashboard', icon: '', url: '/dashboard' },
     { title: 'Development', icon: '', url: '/development' },
     { title: 'Test', icon: '', url: '/test' },
     { title: 'Bug', icon: '', url: '/bug' },

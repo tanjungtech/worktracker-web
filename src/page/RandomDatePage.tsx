@@ -42,7 +42,7 @@ const RandomDatePage = () => {
   }
 
   return (
-    <div className='main-content'>
+    <div>
       <Paper elevation={3} sx={{ padding: '.8em 3.4em' }}>
         <div className='header-page-wrapper'>
           <h2 className='page-title-default-format'>Random Date Page</h2>

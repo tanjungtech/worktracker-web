@@ -4,7 +4,8 @@ export const DrawerMenuObject = [
     { title: 'Test', icon: '', url: '/test' },
     { title: 'Bug', icon: '', url: '/bug' },
     { title: 'Team', icon: '', url: '/team' },
-    { title: 'Random Page', icon: '', url: '/random-date' }
+    { title: 'Random Page', icon: '', url: '/random-date' },
+    { title: 'Component Layout', icon: '', url: '/component-layout' }
 ]
 
 export const TopMenuObject = [

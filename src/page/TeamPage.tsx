@@ -2,7 +2,7 @@ import React from 'react'
 
 const TeamPage = () => {
     return (
-        <div className='main-content'>
+        <div>
             <div>Team Page</div>
         </div>
     )

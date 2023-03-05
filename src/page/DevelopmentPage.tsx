@@ -2,7 +2,7 @@ import React from 'react'
 
 const DevelopmentPage = () => {
     return (
-        <div className='main-content'>
+        <div>
             <div>Development Page</div>
         </div>
     )

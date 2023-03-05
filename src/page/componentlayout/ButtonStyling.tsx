@@ -1,9 +1,10 @@
 import React from 'react'
 import { Stack } from '@mui/material'
 
-import { MotionButton, LinkIconButton } from '../../component/Layout'
+import { MotionButton, LinkIconButton, ConfigurationButton } from '../../component/Layout'
 
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
+import SearchIcon from '@mui/icons-material/Search'
 
 const ButtonStyling = () => {
     return (
@@ -14,7 +15,8 @@ const ButtonStyling = () => {
             <MotionButton title='Standard Button' />
             <MotionButton title='Outlined Button' type='outlined' />
             <LinkIconButton title='Link Icon Button Right' link={'https://www.motiontrade.id'} linkIcon={<ArrowRightAltIcon />} external />
-            <LinkIconButton title='Link Icon Button Left' link='/dashboard' linkIcon={<ArrowRightAltIcon />} external />
+            <LinkIconButton title='Link Icon Button Left' link='/dashboard' linkIcon={<ArrowRightAltIcon />} />
+            <ConfigurationButton title='Configuration Button' iconElement={<SearchIcon />} />
           </Stack>
         </div>
       </div>

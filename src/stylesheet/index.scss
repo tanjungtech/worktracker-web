@@ -80,14 +80,16 @@ button {
 }
 
 .motion-button-default {
-    font-weight: 500;
     padding: 0.8em 1.3em;
     color: #fff;
     background: #137c19;
-}
-
-.motion-button-default:hover {
-    background: #43b749;
+    &:hover {
+        background: #43b749;
+    }
+    &.small {
+        font-size: .75em;
+        padding: 0.65em 1.3em;
+    }
 }
 
 .button-outlined {
@@ -107,6 +109,32 @@ button {
     color: #137c19;
     display: inline-flex;
     text-decoration: none;
+}
+
+.configuration-button {
+    font-size: .75em;
+    line-height: 1.1;
+    padding: .5em 1.3em;
+    border-radius: 6px;
+    &.default {
+        background: transparent;
+        color: #142a4d;
+        border: 1px solid #142a4d75;
+    }
+}
+
+.icon-element-wrapper {
+    margin: 0 0.15em;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    svg {
+        font-size: 16px;
+    }
+}
+
+.configuration-label {
+    margin: 0 .15em;
 }
 
 /* Injected Styling */
@@ -166,6 +194,13 @@ button {
     letter-spacing: .3px;
 }
 
+.button-list-item {
+    margin: 0 .3em;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
 /* Drawer Layout Styling */
 .drawer-logo-holder {
     padding: 21px 34px;
@@ -215,5 +250,5 @@ ul.vertical-list-default > li {
 }
 
 .block-wrapper {
-    margin: 21px 0px;
+    margin: 13px 0px;
 }

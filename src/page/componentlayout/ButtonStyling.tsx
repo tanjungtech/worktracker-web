@@ -14,8 +14,8 @@ const ButtonStyling = () => {
           <Stack spacing={2} direction="row" className='align-items-center' >
             <MotionButton title='Standard Button' />
             <MotionButton title='Outlined Button' type='outlined' />
-            <LinkIconButton title='Link Icon Button Right' link={'https://www.motiontrade.id'} linkIcon={<ArrowRightAltIcon />} external />
-            <LinkIconButton title='Link Icon Button Left' link='/dashboard' linkIcon={<ArrowRightAltIcon />} />
+            <LinkIconButton title='Link Icon Button Right' link={'https://www.motiontrade.id'} linkIcon={<ArrowRightAltIcon />} external iconPosition='right' />
+            <LinkIconButton title='Link Icon Button Left' link='/dashboard' linkIcon={<ArrowRightAltIcon />} iconPosition='left' />
             <ConfigurationButton title='Configuration Button' iconElement={<SearchIcon />} />
           </Stack>
         </div>

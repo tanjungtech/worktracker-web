@@ -16,6 +16,8 @@ const DrawerNavigation = () => {
             '& .MuiDrawer-paper': {
               width: 285,
               boxSizing: 'border-box',
+              borderRight: '1px solid #eeeeee',
+              zIndex: 9999
             },
           }}
           variant="permanent"

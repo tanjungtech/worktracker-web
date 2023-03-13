@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
 
-import { buttonStandardPropsInterface, linkIconPropsInterface, buttonConfigurationPropsInterface } from '../type/layout'
+import { buttonStandardPropsInterface, linkIconPropsInterface, buttonConfigurationPropsInterface, inputIconPropsInterface } from '../type/layout'
 
 export const MotionButton = (buttonProps: buttonStandardPropsInterface) => {
   const { title, onClickHandler, type, iconElement, iconPosition, size } = buttonProps
@@ -27,9 +27,19 @@ export const LinkIconButton: FC<linkIconPropsInterface> = ({ title, link, linkIc
 export const ConfigurationButton:FC<buttonConfigurationPropsInterface> = (buttonProps) => {
   const { title, onClickHandler, buttonStyle, iconElement, iconPosition } = buttonProps
   return (
-    <button onClick={ onClickHandler } className={`configuration-button inline-flex align-items-center ${ buttonStyle ? buttonStyle : 'default'} ${ iconPosition === 'right' ? 'flex-direction-row-reverse' : 'flex-direction-row' }` }>
+    <button onClick={ onClickHandler } className={`configuration-button inline-flex align-items-center ${ buttonStyle ? buttonStyle : 'default'}${ iconPosition === 'right' ? ' flex-direction-row-reverse' : ' flex-direction-row' }` }>
       { iconElement ? <span className='icon-element-wrapper'>{ iconElement }</span> : null }
       <span className='configuration-label'>{ title }</span>
     </button>
+  )
+}
+
+export const InputIconDefault:FC<inputIconPropsInterface> = (inputProps) => {
+  const { placeholder, type, initVal, size, iconElement, borderType, iconPosition, onChangeHandler, fullwidth, fullWidthExtended } = inputProps
+  return (
+    <div className={ `inline-flex justify-content-flex-end align-items-center${ iconElement ? iconPosition === 'right' ? ' input-icon right-icon' : ' input-icon left-icon' : '' }${ fullWidthExtended ? ' fullwidth extended' : '' }` }>
+      { iconElement ? <span className='icon-element-wrapper'>{ iconElement }</span> : null }
+      <input onChange={ onChangeHandler } type={ type } placeholder={ placeholder } value={ initVal } className={ `default-input${ fullwidth ? ' fullwidth' : '' }${ size ? ` ${size}` : '' }${ borderType ? ` ${ borderType }` : '' }${ iconElement ? iconPosition === 'right' ? ' right-icon' : ' left-icon' : '' }` } />
+    </div>
   )
 }

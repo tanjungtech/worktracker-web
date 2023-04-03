@@ -1,15 +1,21 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
+import DoneAllIcon from '@mui/icons-material/DoneAll'
 
 import NavSection from './NavSection'
 
 const Index = () => {
 
+  const [searchParams] = useSearchParams()
+  const pageQuery = searchParams.get('q')
+
+  console.log('pageQuery', pageQuery)
+
   return (
     <div>
-      <NavSection />
+      <NavSection pageQuery={ pageQuery } />
       <div className='section-content-list'>
         <div className='block-wrapper motion-header-paper-wrapper'>
           <div className='flex justify-content-space-between'>
@@ -125,7 +131,7 @@ const Index = () => {
             <div className='motion-list-item flex-basis-20 text-align-center'>26 Februari 2023</div>
             <div className='motion-list-item flex-basis-20 text-align-center'>
               <Link to='/' className='link-status-table'>
-                <span className="label-status-flat success-mode inline-flex align-items-center">Completed <ArrowRightAltIcon /></span>
+                <span className="label-status-flat success-mode inline-flex align-items-center"><DoneAllIcon />Completed</span>
               </Link>
             </div>
           </div>
@@ -141,7 +147,7 @@ const Index = () => {
             <div className='motion-list-item flex-basis-20 text-align-center'>06 Februari 2023</div>
             <div className='motion-list-item flex-basis-20 text-align-center'>
               <Link to='/' className='link-status-table'>
-                <span className="label-status-flat success-mode inline-flex align-items-center">Completed <ArrowRightAltIcon /></span>
+                <span className="label-status-flat success-mode inline-flex align-items-center"><DoneAllIcon />Completed</span>
               </Link>
             </div>
           </div>

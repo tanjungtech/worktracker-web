@@ -47,6 +47,10 @@ a {
     color: #137c19;
 }
 
+a:hover {
+    color: #43b749;
+}
+
 h3.subtitle {
     color: #142a4d;
     font-weight: 700;
@@ -380,6 +384,9 @@ button {
     font-weight: 500;
     &.success-mode {
         color: #137c19;
+        &:hover {
+            color: #43b749;
+        }
     }
     &.failed-mode {
         color: #e53017;
